@@ -41,3 +41,15 @@ print(s[::-1])
 
 they were using start stop and step method
 '''
+# first and last character string
+# probalbly use the step rule
+
+s= "Amazing"
+if len(s)<6:
+    print("")
+else:
+    print(s[0:3:1]+s[len(s)-3::1])
+
+
+
+
