@@ -44,12 +44,34 @@ they were using start stop and step method
 # first and last character string
 # probalbly use the step rule
 
+'''
 s= "Amazing"
 if len(s)<6:
     print("")
 else:
     print(s[0:3:1]+s[len(s)-3::1])
+'''
+
+# Remove characters with even index
+'''
+s="Coding"
+
+new_s = ""
+
+for i in range (len(s)):
+    if i % 2 != 0:
+        new_s +=s[i]
 
 
+print(new_s)
+'''
 
+# if string only contains a number
+'''
+s = input("enter a string")
 
+# you use this function to determind if something has numbers in it
+
+print(s.isdecimal())
+
+'''
