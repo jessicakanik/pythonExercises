@@ -78,7 +78,7 @@ print(s.isdecimal())
 
 # Removing Nth character from string
 
-s="Hello"
+'''s="Hello"
 
 n=1
 
@@ -90,5 +90,12 @@ else:
         if i != n:
             new_s+=s[i]
     print(new_s)
+'''
 
+# removing a character and replacing it with something else
+
+'''s="Hello"
+
+print(s.replace("l","s"))
+'''
 
