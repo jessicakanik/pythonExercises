@@ -75,3 +75,13 @@ s = input("enter a string")
 print(s.isdecimal())
 
 '''
+
+# Removing Nth character from string
+
+s=input("Enter a string")
+
+n=int(input("What character at n index do you want to remove"))
+
+r=s[n-1]
+print(r)
+print( s.replace(r))
