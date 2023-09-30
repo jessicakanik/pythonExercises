@@ -78,10 +78,17 @@ print(s.isdecimal())
 
 # Removing Nth character from string
 
-s=input("Enter a string")
+s="Hello"
 
-n=int(input("What character at n index do you want to remove"))
+n=1
 
-r=s[n-1]
-print(r)
-print( s.replace(r))
+if len(s)==0 or n>=len(s):
+    print("")
+else:
+    new_s=""
+    for i in range(len(s)):
+        if i != n:
+            new_s+=s[i]
+    print(new_s)
+
+
