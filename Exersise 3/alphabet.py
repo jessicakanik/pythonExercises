@@ -1,5 +1,5 @@
 
-s = "the quick brown fox jumped over the lazy fox"
+s = "Hello"
 s.lower()
 length = len(s)
 
