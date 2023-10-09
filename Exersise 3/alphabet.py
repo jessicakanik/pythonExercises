@@ -1,13 +1,14 @@
+import string
 
-s = "Hello"
-s.lower()
-length = len(s)
+s = "The quick brown fox jumped over the lazy dog"
 
-con = False
+is_pangram=True
 
-for l in range (0,length):
-    if s[l] == "a" :
-        con = True
+for char in string.ascii_lowercase:
+    if char not in s.lower():
+        is_pangram = False
+
+print(is_pangram)
 
 
-print(con)
+
