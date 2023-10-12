@@ -1,4 +1,4 @@
 s= "nora"
 suffix="rowing"
 
-print(s[:len(suffix)]==suffix)
+print(s[-len(suffix):]==suffix)
