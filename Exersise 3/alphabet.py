@@ -1,6 +1,6 @@
 import string
 
-s = "The quick brown fox jumped over the lazy dog"
+s = ("Hello")
 
 is_pangram=True
 
