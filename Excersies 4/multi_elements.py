@@ -1,7 +1,7 @@
 
-list=[3,4,5,6]
+list=["a","b","c"]
 
-factor=2
+factor=3
 
 new_list=[]
 
