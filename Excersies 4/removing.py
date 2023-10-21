@@ -1,5 +1,5 @@
 
-list= [1,2,3,4]
+list= [3,3,2,1]
 
 user= input("enter the value you want to remove")
 x=False
