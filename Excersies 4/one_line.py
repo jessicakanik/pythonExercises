@@ -12,3 +12,5 @@ print(s)
 
 for i in list:
     print(i, end=" ")
+
+    # can use sep = ""
