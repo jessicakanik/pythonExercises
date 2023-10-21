@@ -7,3 +7,10 @@ for i in list:
         max=i
 
 print(max)
+
+# solution
+
+if list:
+    print(min(list), max (list))
+else:
+    print(None)
