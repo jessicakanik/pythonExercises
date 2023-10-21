@@ -7,3 +7,8 @@ for i in list:
     s+=str(i)
 
 print(s)
+
+# solution
+
+for i in list:
+    print(i, end=" ")
