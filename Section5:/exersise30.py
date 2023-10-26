@@ -1,4 +1,4 @@
-my_list=[1,3]
+my_list=[2]
 
 # sort the list then find the second smallest
 
