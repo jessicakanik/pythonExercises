@@ -11,13 +11,20 @@ my_dict = {
  }
 freq_dict={}
 
-array=[]
-# getting all the values from a dictionary
-for i in (my_dict.values()):
-    array.append(i)
+# array=[]
+# # getting all the values from a dictionary
+# for i in (my_dict.values()):
+#     array.append(i)
+#
+# print(array)
+#
+# for i in range (0,len(array)):
+#     if i==0:
 
-print(array)
+for values in my_dict.values():
+	if values in freq_dict:
+		freq_dict[values]+=1
+	else:
+		freq_dict[values]=1
 
-for i in range (0,len(array)):
-    if i==0:
-
+print(freq_dict)
