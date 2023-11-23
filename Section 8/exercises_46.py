@@ -1,6 +1,6 @@
 # tell the user if there input is positive, negative of zero
 
-num=3
+num=-4
 
 if num == 0:
     print("Zero")
