@@ -1,6 +1,6 @@
 # check if a leap year
 
-year=2005
+year=1836
 
 if (year % 4)!=0:
     print("Its a commen year")
