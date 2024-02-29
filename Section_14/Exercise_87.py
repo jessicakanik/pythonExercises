@@ -12,3 +12,4 @@ dup= []
 #     for j in x:
 #         if i == j :
 
+fequ_dict = {}
